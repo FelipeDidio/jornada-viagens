@@ -14,11 +14,14 @@
 .card header{
     display: block;
     position: static;
+    padding: 0;
+    margin-bottom: 24px;
 }
 
 .card header p{
     font-size: 20px;
-    font-weight: var(--titles-weight);
+    font-weight: var(--text-weight);
+    color: var(--text-secondary-color);
 }
 
 .card header h3{
